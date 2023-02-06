@@ -1,5 +1,4 @@
-HeSANDA metadata profile and technical implementation
-=====================================================
+# HeSANDA metadata profile and technical implementation
 
 **Document history**
 
