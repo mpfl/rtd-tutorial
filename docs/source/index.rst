@@ -22,3 +22,4 @@ Contents
    api
    hesanda
    primary-identifier
+   1.1-primary-identifier
