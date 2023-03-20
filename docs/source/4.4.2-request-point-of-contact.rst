@@ -1,0 +1,29 @@
+==============================
+4.4.2 Request point of contact
+==============================
+
+======== ==========
+Required Repeatable
+======== ==========
+Yes      Yes
+======== ==========
+
+Definition
+==========
+
+The relevant point of contact for requesting access to the data asset (e.g. the data custodian). The point of contact should be enduring (e.g. role-based) as opposed to a specific individual (e.g. a chief investigator).
+
+This may be a different point of contact than that used for enquiries about the data asset (see Enquiries (4.4.1)).
+
+This field will be used by the HeSANDA Federations Service to direct where data requests will be sent. 
+
+The Request Point of Contact will need to be separately registered with ARDC to enable this functionality.
+
+
+============================ =========== ========== ============================= ============================ =====
+Source metadata field        Occurrences Input type Example input                 Controlled vocabulary source Notes
+============================ =========== ========== ============================= ============================ =====
+DataCite 7 Contributor                   n/a                                    
+DataCite 7.a contributorType 1           Text       Must be "Distributor"         DataCite                    
+DataCite 7.1 contributorName
+============================ =========== ========== ============================= ============================ =====
