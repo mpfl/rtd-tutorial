@@ -9,8 +9,7 @@ Required Repeatable
 Yes      Yes
 ======== ==========
 
-Definition
-~~~~~~~~~~
+*Definition*
 
 The relevant point of contact for requesting access to the data asset (e.g. the data custodian). The point of contact should be enduring (e.g. role-based) as opposed to a specific individual (e.g. a chief investigator).
 
