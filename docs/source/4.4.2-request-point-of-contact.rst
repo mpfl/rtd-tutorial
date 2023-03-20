@@ -10,7 +10,7 @@ Yes      Yes
 ======== ==========
 
 Definition
-==========
+~~~~~~~~~~
 
 The relevant point of contact for requesting access to the data asset (e.g. the data custodian). The point of contact should be enduring (e.g. role-based) as opposed to a specific individual (e.g. a chief investigator).
 
@@ -54,7 +54,7 @@ DataCite 7.1 contributorName
 
 .. _7.a:
 
-7.a contributorType
+DataCite 7.a contributorType
 ~~~~~~~~~~~~~~~~~~~
 
 **Occurrences:** 1
@@ -94,8 +94,8 @@ See :doc:`Appendix 1: Controlled List Definitions - contributorType </appendices
 
 .. _7.1:
 
-7.1 contributorName
-~~~~~~~~~~~~~~~~~~~
+DataCite 7.1 contributorName
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **Occurrences:** 1
 
@@ -111,8 +111,8 @@ The personal name format should be: family, given. Non- roman names should be tr
 
 .. _7.1.a:
 
-7.1.a nameType
-^^^^^^^^^^^^^^^^^^^
+DataCite 7.1.a nameType
+^^^^^^^^^^^^^^^^^^^^^^^
 
 **Occurrences:** 0-1
 
@@ -127,8 +127,8 @@ The personal name format should be: family, given. Non- roman names should be tr
 
 .. _7.2:
 
-7.2 givenName
-~~~~~~~~~~~~~~~~~~~
+DataCite 7.2 givenName
+~~~~~~~~~~~~~~~~~~~~~~
 
 **Occurrences:** 0-1
 
@@ -140,7 +140,7 @@ Examples based on the `7.1`_ names: Emily
 
 .. _7.3:
 
-7.3 familyName
+DataCite 7.3 familyName
 ~~~~~~~~~~~~~~~~~~~
 
 **Occurrences:** 0-1
@@ -154,8 +154,8 @@ Examples based on the `7.1`_ names: Patel
 
 .. _7.4:
 
-7.4 nameIdentifier
-~~~~~~~~~~~~~~~~~~~~~~
+DataCite 7.4 nameIdentifier
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **Occurrences:** 0-n
 
@@ -173,8 +173,8 @@ Examples:
 
 .. _7.4.a:
 
-7.4.a nameIdentifierScheme
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+DataCite 7.4.a nameIdentifierScheme
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 **Occurrences:** 1
 
@@ -192,8 +192,8 @@ Examples:
 
 .. _7.4.b:
 
-7.4.b schemeURI
-^^^^^^^^^^^^^^^^^^^
+DataCite 7.4.b schemeURI
+^^^^^^^^^^^^^^^^^^^^^^^^
 
 **Occurrences:** 0-1
 
@@ -210,8 +210,8 @@ Examples:
 
 .. _7.5:
 
-7.5 affiliation
-~~~~~~~~~~~~~~~~~~~
+DataCite 7.5 affiliation
+~~~~~~~~~~~~~~~~~~~~~~~~
 
 **Occurrences:** 0-n
 
@@ -232,8 +232,8 @@ Examples:
 
 .. _7.5.a:
 
-7.5.a affiliationIdentifier
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+DataCite 7.5.a affiliationIdentifier
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 **Occurrences:** 0-1
 
@@ -250,8 +250,8 @@ Examples:
 
 .. _7.5.b:
 
-7.5.b affiliationIdentifierScheme
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+DataCite 7.5.b affiliationIdentifierScheme
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 **Occurrences:** 1
 
@@ -269,8 +269,8 @@ Examples:
 
 .. _7.5.c:
 
-7.5.c schemeURI
-^^^^^^^^^^^^^^^^^^^
+DataCite 7.5.c schemeURI
+^^^^^^^^^^^^^^^^^^^^^^^^
 
 **Occurrences:** 0-1
 
