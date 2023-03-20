@@ -9,7 +9,7 @@ Required Repeatable
 Yes      Yes
 ======== ==========
 
-*Definition*
+**Definition**
 
 The relevant point of contact for requesting access to the data asset (e.g. the data custodian). The point of contact should be enduring (e.g. role-based) as opposed to a specific individual (e.g. a chief investigator).
 
@@ -58,38 +58,13 @@ DataCite 7.a contributorType
 
 **Occurrences:** 1
 
-**Definition:** The type of contributor of the resource.
+**Input type:** Text
 
-**Allowed values, examples, other constraints:**
+**Example input: ** Must be "Distributor"
 
-If Contributor is used, then contributorType is mandatory.
+**Controlled vocabulary source:**
 
-*Controlled List Values:*
-
-* :ref:`ContactPerson`
-* :ref:`DataCollector`
-* :ref:`DataCurator`
-* :ref:`DataManager`
-* :ref:`Distributor`
-* :ref:`Editor`
-* :ref:`HostingInstitution`
-* :ref:`Producer`
-* :ref:`ProjectLeader`
-* :ref:`ProjectManager`
-* :ref:`ProjectMember`
-* :ref:`RegistrationAgency`
-* :ref:`RegistrationAuthority`
-* :ref:`RelatedPerson`
-* :ref:`Researcher`
-* :ref:`ResearchGroup`
-* :ref:`RightsHolder`
-* :ref:`Sponsor`
-* :ref:`Supervisor`
-* :ref:`WorkPackageLeader`
-* :ref:`contributorType_Other`
-
-See :doc:`Appendix 1: Controlled List Definitions - contributorType </appendices/appendix_1/contributorType>` for definitions.
-
+**Notes:**
 
 .. _7.1:
 
@@ -98,58 +73,28 @@ DataCite 7.1 contributorName
 
 **Occurrences:** 1
 
-**Definition:** The full name of the contributor.
+**Input type:** Text from list
 
-**Allowed values, examples, other constraints:**
+**Example input: ** Australasian Leukaemia and Lymphoma Group (ALLG)
 
-If Contributor is used, then contributorName is mandatory.
+**Controlled vocabulary source:** List of all HeSANDA data providers
 
-Examples: Patel, Emily; ABC Foundation
-
-The personal name format should be: family, given. Non- roman names should be transliterated according to the `ALA-LC schemas <https://www.loc.gov/catdir/cpso/roman.html>`_.
+**Notes:**
 
 .. _7.1.a:
 
 DataCite 7.1.a nameType
 ^^^^^^^^^^^^^^^^^^^^^^^
 
-**Occurrences:** 0-1
+**Occurrences:** 1
 
-**Definition:** The type of name.
+**Input type:** Text from list
 
-**Allowed values, examples, other constraints:**
+**Example input: ** Must be "Organizational"
 
-*Controlled List Values:*
+**Controlled vocabulary source:**
 
- * Organizational
- * Personal
-
-.. _7.2:
-
-DataCite 7.2 givenName
-~~~~~~~~~~~~~~~~~~~~~~
-
-**Occurrences:** 0-1
-
-**Definition:** The personal or first name of the contributor.
-
-**Allowed values, examples, other constraints:**
-
-Examples based on the `7.1`_ names: Emily
-
-.. _7.3:
-
-DataCite 7.3 familyName
-~~~~~~~~~~~~~~~~~~~
-
-**Occurrences:** 0-1
-
-**Definition:** The surname or last name of the contributor.
-
-**Allowed values, examples, other constraints:**
-
-Examples based on the `7.1`_ names: Patel
-
+**Notes:**
 
 .. _7.4:
 
@@ -158,17 +103,13 @@ DataCite 7.4 nameIdentifier
 
 **Occurrences:** 0-n
 
-**Definition:** Uniquely identifies an individual or legal entity, according to various schemes.
+**Input type:** Text
 
-**Allowed values, examples, other constraints:**
+**Example input: ** https://ror.org/05t72y326
 
-The format is dependent upon scheme.
+**Controlled vocabulary source:**
 
-Examples:
-
-* https://orcid.org/0000-0001-5727-2427
-* https://isni.org/isni/0000000492299539
-* https://ror.org/04aj4c181
+**Notes:** Go to https://ror.org/ to look up the ROR ID for an organisation.
 
 .. _7.4.a:
 
