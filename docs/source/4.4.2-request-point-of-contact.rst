@@ -60,7 +60,7 @@ DataCite 7.a contributorType
 
 **Input type:** Text
 
-**Example input: ** Must be "Distributor"
+**Example input:** Must be "Distributor"
 
 **Controlled vocabulary source:**
 
@@ -75,7 +75,7 @@ DataCite 7.1 contributorName
 
 **Input type:** Text from list
 
-**Example input: ** Australasian Leukaemia and Lymphoma Group (ALLG)
+**Example input:** Australasian Leukaemia and Lymphoma Group (ALLG)
 
 **Controlled vocabulary source:** List of all HeSANDA data providers
 
@@ -90,7 +90,7 @@ DataCite 7.1.a nameType
 
 **Input type:** Text from list
 
-**Example input: ** Must be "Organizational"
+**Example input:** Must be "Organizational"
 
 **Controlled vocabulary source:**
 
@@ -105,7 +105,7 @@ DataCite 7.4 nameIdentifier
 
 **Input type:** Text
 
-**Example input: ** https://ror.org/05t72y326
+**Example input:** https://ror.org/05t72y326
 
 **Controlled vocabulary source:**
 
