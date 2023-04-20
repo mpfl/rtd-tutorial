@@ -1,0 +1,35 @@
+.. _4.4.2:
+
+4.4.2 Enquiries point of contact
+==============================
+
+======== ==========
+Required Repeatable
+======== ==========
+Yes      Yes
+======== ==========
+
+**Definition**
+
+The relevant point of contact for requesting additional information about the data asset. The point of contact should be enduring (e.g. role-based) as opposed to a specific individual (e.g. a chief investigator).
+
+This may be different to the point of contact for requesting access to the data asset (see Request POC [4.4.2] below).
+
+Email (or URL to web form) for the point of contact.
+
+.. _step10:
+
+ANZCTR Step 10 - Contact person for scientific queries
+~~~~~~~~~~~~~~~~~~~
+
+**Occurrences:** 1
+
+**Input type:** Text
+
+**Example input:**
+
+Medical Director for the Study, +61 2 9562 5333, Department of Clinical Trials, Holt University, enquiries@holt.edu.au
+
+**Controlled vocabulary source:** Nil
+
+**Notes:**

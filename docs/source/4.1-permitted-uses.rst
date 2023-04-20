@@ -1,0 +1,127 @@
+.. _4.4.2:
+
+4.4.2 Request point of contact
+==============================
+
+======== ==========
+Required Repeatable
+======== ==========
+Yes      Yes
+======== ==========
+
+**Definition**
+
+A brief general description of the kinds of permitted secondary uses of the dataset. These uses would generally be dictated by the terms of consent and/or HREC approval. A more detailed description of the terms of use would be provided via the Data Sharing Policy [4.2] and Rights/Licence [4.3] attribute.
+
+It is assumed that requests to access data for secondary use may require review on a case by case basis. As such, this attribute is used to indicate the kinds of requests that align with existing consent/HREC approval.
+
+*ANZCTR Step 11 must be provided.*
+
+Optionally, more structured metadata can be provided to DataCite to enable machine-readability of permitted uses, which the HeSANDA portal can use to provide a better user experience.
+
+If providing metadata to DataCite, DUO - the Data Use Ontology - is recommended here, if appropriate for the dataset. Read an introduction here - https://doi.org/10.1016/j.xgen.2021.100028. 
+Note: DUO terms can currently only be applied using the DataCite metadata schema.
+
+*Metadata fields:*
+
+.. contents:: :local:
+
+.. rubric:: Example DataCite XML
+
+.. code:: xml
+
+<rightsList>
+  <rights xml:lang="en" schemeURI="http://purl.obolibrary.org/obo/duo.owl" rightsIdentifierScheme="DUO" rightsIdentifier="DUO_0000011" rightsURI="http://purl.obolibrary.org/obo/DUO_0000011">population origins/ancestry research</rights>
+</rightsList>
+
+.. _step11:
+
+ANZCTR Step 11 -  'Available for what types of analyses?'
+~~~~~~~~~~~~~~~~~~~
+
+**Occurrences:** 1
+
+**Input type:** Text
+
+**Example input:** Any purpose, only to achieve the aims in the approved proposal, for IPD meta-analyses, etc.
+
+**Controlled vocabulary source:** Nil
+
+**Notes:**
+
+.. _16:
+
+.. _16:
+
+DataCite 16 Rights
+~~~~~~~~~~~~~~~~~~~
+
+**Occurrences:** 0-n
+
+**Input type:** Text from list
+
+**Example input:** population origins/ancestry research
+
+**Controlled vocabulary source:** DUO - Data Use Ontology
+
+**Notes:**
+
+.. _16.a:
+
+DataCite 16.a rightsURI
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**Occurrences:** 0-1
+
+**Input type:** Text from list
+
+**Example input:** http://purl.obolibrary.org/obo/DUO_0000011
+
+**Controlled vocabulary source:** DUO - Data Use Ontology
+
+**Notes:**
+
+.. _16.a:
+
+DataCite 16.b rightsIdentifier
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**Occurrences:** 0-1
+
+**Input type:** Text from list
+
+**Example input:** DUO_0000011
+
+**Controlled vocabulary source:** DUO - Data Use Ontology
+
+**Notes:**
+
+.. _16.a:
+
+DataCite 16.c rightsIdentifierScheme
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**Occurrences:** 0-1
+
+**Input type:** Text
+
+**Example input:** DUO
+
+**Controlled vocabulary source:** DUO - Data Use Ontology
+
+**Notes:**
+
+.. _16.a:
+
+DataCite 16.d schemeURI
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**Occurrences:** 0-1
+
+**Input type:** Text
+
+**Example input:** http://purl.obolibrary.org/obo/duo.owl
+
+**Controlled vocabulary source:** DUO - Data Use Ontology
+
+**Notes:**

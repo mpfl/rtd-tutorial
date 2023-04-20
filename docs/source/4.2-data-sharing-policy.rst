@@ -1,0 +1,40 @@
+.. _4.2:
+
+4.2 Data sharing policy
+==============================
+
+======== ==========
+Required Repeatable
+======== ==========
+Yes      Yes
+======== ==========
+
+**Definition**
+
+A policy statement and/or set of procedures that addresses secondary use of the dataset. This would commonly be presented as a publicly accessible document or webpage that details items such as the following:
+
+* Governance roles and responsibilities
+* Regulatory requirements (e.g. legal, ethical, funding)
+* Requirements for requesting data access (e.g. procedures, time frames, costs)
+* Requirements for management and handling of shared data (e.g. storage and disposal, reporting)
+
+Data sharing policies are broad in nature and represent the general position of the data custodian regarding sharing of the dataset. It is common for a specific data sharing agreement to be signed by the requestor and custodian prior to the release of data in response to a data request. Data sharing agreements are contracts between two or more parties that articulate the specific terms and conditions for the sharing of data for a specific purpose. The data sharing policy may be cited in the terms of the data sharing agreement if required.
+
+See also Permitted uses [4.1] and Rights/Licence [4.3].
+
+.. _step11:
+
+ANZCTR Step 11: Data sharing statement
+~~~~~~~~~~~~~~~~~~~
+
+**Occurrences:** 1
+
+**Input type:** Text
+
+**Example input:**
+
+Medical Director for the Study, +61 2 9562 5333, Department of Clinical Trials, Holt University, enquiries@holt.edu.au
+
+**Controlled vocabulary source:** Nil
+
+**Notes:**

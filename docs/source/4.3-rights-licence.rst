@@ -1,0 +1,63 @@
+.. _4.3:
+
+4.3 Rights/licence
+==================
+
+======== ==========
+Required Repeatable
+======== ==========
+No       Yes
+======== ==========
+
+**Definition**
+
+Any intellectual property rights and/or licensing information regarding sharing and/or secondary use of the data object. This may be expressed as:
+
+* A textual statement of the rights management associated with the asset
+*  A legal document under which the asset is made available (e.g. a data sharing agreement template)
+
+See also Permitted uses [4.1] and Data sharing policy [4.2].
+
+*Metadata fields:*
+
+.. contents:: :local:
+
+.. rubric:: Example DataCite XML
+
+.. code:: xml
+
+<rightsList>
+  <rights xml:lang="en" rightsURI="https://www.uni.edu.au/licence">Access to this data is subject to a licence agreement</rights>
+</rightsList>
+
+.. _16:
+
+DataCite 16 Rights
+~~~~~~~~~~~~~~~~~~~
+
+**Occurrences:** 0-n
+
+**Input type:** Text
+
+**Example input:** Access to this data is subject to a licence agreement
+
+**Controlled vocabulary source:** Nil
+
+**Notes:**
+
+.. _16.a:
+
+DataCite 16.a rightsURI
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**Occurrences:** 0-1
+
+**Input type:** Text
+
+**Example input:**
+
+https://www.uni.edu.au/licence
+
+**Controlled vocabulary source:** Nil
+
+**Notes:** This should be a link to a template licence that a third party user might need to agree to in order to access the data.

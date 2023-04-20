@@ -19,21 +19,11 @@ This field will be used by the HeSANDA Federations Service to direct where data 
 
 The Request Point of Contact will need to be separately registered with ARDC to enable this functionality.
 
-
-============================ =========== ========== ============================= ============================ =====
-Source metadata field        Occurrences Input type Example input                 Controlled vocabulary source Notes
-============================ =========== ========== ============================= ============================ =====
-DataCite 7 Contributor                   n/a                                    
-DataCite 7.a contributorType 1           Text       Must be "Distributor"         DataCite                    
-DataCite 7.1 contributorName
-============================ =========== ========== ============================= ============================ =====
-
-
 *Metadata fields:*
 
 .. contents:: :local:
 
-.. rubric:: Example XML
+.. rubric:: Example DataCite XML
 
 .. code:: xml
 
