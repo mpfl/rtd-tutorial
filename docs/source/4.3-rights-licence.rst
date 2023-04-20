@@ -26,9 +26,9 @@ See also Permitted uses [4.1] and Data sharing policy [4.2].
 
 .. code:: xml
 
-<rightsList>
-  <rights xml:lang="en" rightsURI="https://www.uni.edu.au/licence">Access to this data is subject to a licence agreement</rights>
-</rightsList>
+  <rightsList>
+    <rights xml:lang="en" rightsURI="https://www.uni.edu.au/licence">Access to this data is subject to a licence agreement</rights>
+  </rightsList>
 
 .. _16:
 

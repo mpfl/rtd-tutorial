@@ -30,9 +30,9 @@ Note: DUO terms can currently only be applied using the DataCite metadata schema
 
 .. code:: xml
 
-<rightsList>
-  <rights xml:lang="en" schemeURI="http://purl.obolibrary.org/obo/duo.owl" rightsIdentifierScheme="DUO" rightsIdentifier="DUO_0000011" rightsURI="http://purl.obolibrary.org/obo/DUO_0000011">population origins/ancestry research</rights>
-</rightsList>
+  <rightsList>
+    <rights xml:lang="en" schemeURI="http://purl.obolibrary.org/obo/duo.owl" rightsIdentifierScheme="DUO" rightsIdentifier="DUO_0000011" rightsURI="http://purl.obolibrary.org/obo/DUO_0000011">population origins/ancestry research</rights>
+  </rightsList>
 
 .. _step11:
 
