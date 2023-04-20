@@ -51,8 +51,6 @@ ANZCTR Step 11 -  'Available for what types of analyses?'
 
 .. _16:
 
-.. _16:
-
 DataCite 16 Rights
 ~~~~~~~~~~~~~~~~~~~
 

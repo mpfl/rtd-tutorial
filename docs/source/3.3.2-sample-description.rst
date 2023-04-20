@@ -1,0 +1,143 @@
+.. _3.3.2:
+
+3.3.2 Sample description
+==============================
+
+======== ==========
+Required Repeatable
+======== ==========
+Yes      Yes
+======== ==========
+
+**Definition**
+
+.. _step5:
+
+ANZCTR Step 5 - Eligibility - Key inclusion criteria
+~~~~~~~~~~~~~~~~~~~
+
+**Occurrences:** 1
+
+**Input type:** Text
+
+**Example input:**
+
+Minimum Age : 12 years
+Maximum Age: 25 years
+Sex: F
+
+
+Minimum Age : 0 years
+Maximum Age: 3 years
+Sex: M
+
+**Controlled vocabulary source:** Nil
+
+**Notes:**
+
+Please note that the ANZCTR metadata describes the sample for the whole trial; individual datasets produced by the trial may be derived from subsets of the whole sample. 
+
+The sample description for individual datasets should appear in 3.2 Dataset description.
+
+.. _step5:
+
+ANZCTR Step 5 - Eligibility - Minimum age
+~~~~~~~~~~~~~~~~~~~
+
+**Occurrences:** 1
+
+**Input type:** Number and option from provided list
+
+**Example input:**
+
+**Controlled vocabulary source:**
+
+* Years
+* Months
+* Weeks
+* Days
+* Hours
+
+**Notes:**
+
+.. _step5:
+
+ANZCTR Step 5 - Eligibility - Maximum age
+~~~~~~~~~~~~~~~~~~~
+
+**Occurrences:** 1
+
+**Input type:** Number and option from provided list
+
+**Example input:**
+
+**Controlled vocabulary source:**
+
+* Years
+* Months
+* Weeks
+* Days
+* Hours
+
+**Notes:**
+
+.. _step5:
+
+ANZCTR Step 5 - Eligibility - Gender
+~~~~~~~~~~~~~~~~~~~
+
+**Occurrences:** 1-3
+
+**Input type:** Text from list
+
+**Example input:**
+
+* Males
+* Females
+* Both males and females
+
+**Controlled vocabulary source:**
+
+* Males
+* Females
+* Both males and females
+
+**Notes:**
+
+.. _step5:
+
+ANZCTR Step 5 - Eligibility - Can healthy volunteers participate?
+~~~~~~~~~~~~~~~~~~~
+
+**Occurrences:** 1
+
+**Input type:** Text from list
+
+**Example input:**
+
+**Controlled vocabulary source:**
+
+* Yes
+* No
+
+**Notes:**
+
+.. _step5:
+
+ANZCTR Step 5 - Eligibility - Key exclusion criteria
+~~~~~~~~~~~~~~~~~~~
+
+**Occurrences:** 1
+
+**Input type:** Text
+
+**Example input:**
+
+* Diagnosis of sleep apnea or any other chronic respiratory disease
+* Any acute or chronic condition that would limit the ability of the patient to participate in the study
+* Refusal to give informed consent
+
+
+**Controlled vocabulary source:** Nil
+
+**Notes:**

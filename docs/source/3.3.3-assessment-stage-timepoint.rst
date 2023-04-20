@@ -1,0 +1,25 @@
+.. _3.3.3:
+
+3.3.3 Assessment stage/timepoint
+==============================
+
+======== ==========
+Required Repeatable
+======== ==========
+No       Yes
+======== ==========
+
+**Definition**
+
+The assessment stage or timepoint at which the dataset was collected. This is a subset of the indicated timepoints in 2.6.4.
+
+.. _step10:
+
+DataCite 17 Description
+~~~~~~~~~~~~~~~~~~~
+
+see 3.2 Dataset description
+
+**Notes:**
+
+The assessment state/timepoints for individual datasets should appear in 3.2 Dataset description.
