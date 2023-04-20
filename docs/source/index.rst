@@ -1,13 +1,7 @@
-Welcome to Lumache's documentation!
+HeSANDA metadata profile
 ===================================
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
-
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
+Welcome to the Health Studies Australian National Data Asset metadata profile.
 
 .. note::
 
@@ -18,8 +12,8 @@ Contents
 
 .. toctree::
 
-   hesanda
-   primary-identifier
-   1.1-primary-identifier
+   4.1-permitted-uses
+   4.2-data-sharing-policy
+   4.3-rights-licence
+   4.4.1-enquiries
    4.4.2-request-point-of-contact
-   metadataprofile
