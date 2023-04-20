@@ -1,0 +1,74 @@
+.. _3.2:
+
+3.2 Dataset description
+==============================
+
+======== ==========
+Required Repeatable
+======== ==========
+Yes      No
+======== ==========
+
+**Definition**
+
+A description containing easily read and understood information about the data asset. The purpose is to enable users not involved in the original study to find, categorise and evaluate the fitness of a data asset to their needs.
+
+It is recommended that the dataset description include:
+* the sample size (3.2)
+* sample description (3.3.2)
+* assessment stage/ timepoint (3.3.3)
+for that individual data asset.
+
+*Metadata fields:*
+
+.. contents:: :local:
+
+.. rubric:: Example DataCite XML
+
+.. code:: xml
+
+  <descriptions>
+    <description xml:lang="en" descriptionType="Abstract">Haemoglobin levels observed in blood samples of 50 trial participants taken at timepoint 3.<br />Timepoint 3 - 1 hour, 3 hours (primary timepoint) and 6 hours post dose</description>
+  </descriptions>
+
+.. _17:
+
+DataCite 17 Description
+~~~~~~~~~~~~~~~~~~~
+
+**Occurrences:** 1
+
+**Input type:** Text
+
+**Example input:**
+
+Haemoglobin levels observed in blood samples of 50 trial participants taken at timepoint 3.
+
+Timepoint 3 - 1 hour, 3 hours (primary timepoint) and 6 hours post dose
+
+**Controlled vocabulary source:** Nil
+
+**Notes:**
+
+.. _17.a:
+
+DataCite 17.a descriptionType
+~~~~~~~~~~~~~~~~~~~
+
+**Occurrences:** 1
+
+**Input type:** Text
+
+**Example input:**
+
+Must be "Abstract"
+
+**Controlled vocabulary source:**
+
+* Abstract
+* Methods
+* TableOfContents
+* TechnicalInfo
+* Other
+
+**Notes:**

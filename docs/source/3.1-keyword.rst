@@ -1,0 +1,103 @@
+.. _3.1:
+
+3.1 Keyword
+==============================
+
+======== ==========
+Required Repeatable
+======== ==========
+No       Yes
+======== ==========
+
+**Definition**
+
+Qualifying words that help the reader understand more about the dataset, that can help differentiate this dataset from others. 
+
+These Text keywords are not constrained by vocabularies, however the use of vocabularies (e.g. MeSH, SNOMED, etc) is strongly recommended.
+
+*Metadata fields:*
+
+.. contents:: :local:
+
+.. rubric:: Example DataCite XML
+
+.. code:: xml
+
+  <subjects>
+    <subject xml:lang="en" subjectScheme="MeSH" schemeURI="http://id.nlm.nih.gov/mesh/" valueURI="https://id.nlm.nih.gov/mesh/D001794" classificationCode="D001794">Blood pressure</subject>
+  </subject>
+
+.. _6:
+
+DataCite 6 Subject
+~~~~~~~~~~~~~~~~~~~
+
+**Occurrences:** 0-n
+
+**Input type:** Text
+
+**Example input:** Blood pressure
+
+**Controlled vocabulary source:** Use of a medical vocabulary such as MeSH or SNOMED is highly recommended.
+
+**Notes:**
+
+.. _6.a:
+
+DataCite 6.a subjectScheme 
+~~~~~~~~~~~~~~~~~~~
+
+**Occurrences:** 0-1
+
+**Input type:** Text
+
+**Example input:** MeSH
+
+**Controlled vocabulary source:**
+
+**Notes:**
+
+.. _6.b:
+
+DataCite 6.b schemeURI
+~~~~~~~~~~~~~~~~~~~
+
+**Occurrences:** 0-1
+
+**Input type:** Text
+
+**Example input:** http://id.nlm.nih.gov/mesh/
+
+**Controlled vocabulary source:**
+
+**Notes:**
+
+.. _6.c:
+
+DataCite 6.c valueURI
+~~~~~~~~~~~~~~~~~~~
+
+**Occurrences:** 0-1
+
+**Input type:** Text
+
+**Example input:** https://id.nlm.nih.gov/mesh/D001794
+
+**Controlled vocabulary source:**
+
+**Notes:**
+
+.. _6.d:
+
+DataCite 6.d classificationCode
+~~~~~~~~~~~~~~~~~~~
+
+**Occurrences:** 0-1
+
+**Input type:** Text
+
+**Example input:** D001794
+
+**Controlled vocabulary source:**
+
+**Notes:**
