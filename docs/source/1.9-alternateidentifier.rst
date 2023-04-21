@@ -1,0 +1,53 @@
+.. _1.9:
+
+1.9 Alternate Identifier
+==========================
+
+======== ==========
+Required Repeatable
+======== ==========
+No       Yes
+======== ==========
+
+**Definition:** An identifier other than the primary Identifier applied to the resource being registered. This may be any Text of characters which is unique within its
+domain of issue. May be used for local identifiers. The AlternateIdentifier should be an additional identifier for the same instance of the resource (i.e., same location, same file).
+
+*Metadata fields:*
+
+.. contents:: :local:
+
+.. rubric:: Example DataCite XML
+
+.. code:: xml
+
+  <alternateIdentifiers>
+      <alternateIdentifier alternateIdentifierType="Local accession number">E-GEOD-34814</alternateIdentifier>
+  </alternateIdentifiers>
+
+.. _11:
+
+DataCite 11. AlternateIdentifier
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**Occurrences:** 0-n
+
+**Input type:** Text
+
+**Example input:** E-GEOD-34814
+
+**Controlled vocabulary source** Nil
+
+**Notes** We recommend the use of semantic versioning
+
+DataCite 11.a alternateIdentifierType
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**Occurrences:** 0-1
+
+**Input type:** Text
+
+**Example input:** Local accession number
+
+**Controlled vocabulary source** Nil
+
+**Notes** We recommend the use of semantic versioning

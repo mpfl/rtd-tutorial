@@ -1,0 +1,37 @@
+.. _1.6.2:
+
+1.6.2 Resource Type
+===================
+
+======== ==========
+Required Repeatable
+======== ==========
+Yes      Yes
+======== ==========
+
+**Definition:** “Individual Participant Data (IPD)” 
+
+Note: The use of a controlled terminology will be considered.
+
+*Metadata fields:*
+
+.. contents:: :local:
+
+.. rubric:: Example DataCite XML
+
+.. code:: xml
+
+ <resourceType resourceTypeGeneral="Dataset">Census Data</identifier>
+
+.. _10:
+
+DataCite 10. ResourceType
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**Occurrences:** 1
+
+**Input type:** Text from list
+
+**Example input:** MUST be “Individual Participant Data (IPD)”
+
+**Controlled vocabulary source** HeSANDA

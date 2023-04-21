@@ -1,0 +1,65 @@
+.. _1.5.2:
+
+1.5.2 Collection Date
+=====================
+
+======== ==========
+Required Repeatable
+======== ==========
+No       No
+======== ==========
+
+**Definition:** A significant date or date range  for the dataset, in yyyy-mm-dd format. See dateType for the significant dates desired. This attribute can be used to indicate the date range of data collection.
+
+*Metadata fields:*
+
+.. contents:: :local:
+
+.. rubric:: Example DataCite XML
+
+.. code:: xml
+
+  <dates>
+      <date dateType="Issued">2022-08-01</date>
+      <date dateType="Other" dateInformation="Conceptualized">2020-01-01</date>
+  </dates>
+
+.. _8:
+
+DataCite 8. Date
+~~~~~~~~~~~~~~~~
+
+**Occurrences:** 0-n
+
+**Input type:** Date
+
+**Example input:** 2015-07-01T9:00+10:00/2015-07-31T17:00+10:00
+
+(Indicates a date range of 1 July 2015 at 9:00 AEST to 31 July 2015 at 17:00 AEST)
+
+**Controlled vocabulary source:** Use RKMS-ISO8601 format
+
+**Notes:**
+
+.. _8.a:
+
+DataCite 8.a dateType
+~~~~~~~~~~~~~
+
+**Occurrences:** 1
+
+**Input type:** Text
+
+**Example input:** Must be "Collected"
+
+.. _8.b:
+
+DataCite 8.b dateInformation
+~~~~~~~~~~~~~~~~~~~~~~
+
+**Occurrences:** 0-1
+
+**Input type:** Text
+
+**Example input:** Covers time points 1 and 2
+

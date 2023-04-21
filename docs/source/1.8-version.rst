@@ -1,0 +1,38 @@
+.. _1.7:
+
+1.7 Format
+==========
+
+======== ==========
+Required Repeatable
+======== ==========
+No       Yes
+======== ==========
+
+**Definition:** The version number of the resource.
+
+*Metadata fields:*
+
+.. contents:: :local:
+
+.. rubric:: Example DataCite XML
+
+.. code:: xml
+
+  <version>2.1</version>
+
+.. _15:
+
+DataCite 15. Version
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**Occurrences:** 0-1
+
+**Input type:** Text
+
+**Example input:** 1.0.0
+
+**Controlled vocabulary source** Link to definition of semantic versioning.
+
+**Notes** We recommend the use of semantic versioning
+

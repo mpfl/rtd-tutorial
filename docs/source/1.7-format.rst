@@ -1,0 +1,43 @@
+.. _1.7:
+
+1.7 Format
+==========
+
+======== ==========
+Required Repeatable
+======== ==========
+No       Yes
+======== ==========
+
+**Definition:** A description of the technical format in which the data asset will be shared.
+
+Note: The convention is still to be confirmed, and the use of a controlled terminology will be considered.
+
+*Metadata fields:*
+
+.. contents:: :local:
+
+.. rubric:: Example DataCite XML
+
+.. code:: xml
+
+  <formats>
+      <format>application/xml</format>
+  </formats>
+
+.. _14:
+
+DataCite 14. Format
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**Occurrences:** 0-n
+
+**Input type:** Text
+
+**Example input:** text/csv
+
+**Controlled vocabulary source** Refer to IANA’s Media Types list for MIME types.
+
+**Notes** Use file extension or MIME type where possible, e.g., PDF, XML, MPG or application/pdf, text/xml, video/mpeg.
+
+A human-readable text description of the files in the dataset, such as “CT scans of vertebrae”, should go in 3.2 Dataset description (DataCite field 17)

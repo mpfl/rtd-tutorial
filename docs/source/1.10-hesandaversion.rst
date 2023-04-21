@@ -1,0 +1,60 @@
+.. _1.10:
+
+1.10 HeSANDA Version
+====================
+
+======== ==========
+Required Repeatable
+======== ==========
+Yes      No
+======== ==========
+
+**Definition:** The version number of the HeSANDA metadata profile used for this record. This must be in the format 1.0.0
+
+*Metadata fields:*
+
+.. contents:: :local:
+
+.. rubric:: Example DataCite XML
+
+.. code:: xml
+
+  <descriptions>
+      <description xml:lang="en" descriptionType="TechnicalInfo">HeSANDA 1.0.0</description>
+  </descriptions>
+
+
+.. _17:
+
+DataCite 17. Description
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**Occurrences:** 1
+
+**Input type:** Text
+
+**Example input:** Must be “HeSANDA 1.0.0”
+
+**Controlled vocabulary source** Nil
+
+**Notes** We recommend the use of semantic versioning
+
+DataCite 17.a descriptionType
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**Occurrences:** 1
+
+**Input type:** Text from list
+
+**Example input:** Must be ‘TechnicalInfo’
+
+**Controlled vocabulary source** 
+
+From the DataCite metadata schema: 
+* Abstract Methods
+* SeriesInformation
+* TableOfContents
+* TechnicalInfo
+* Other
+
+**Notes**

@@ -1,0 +1,35 @@
+.. _1.6.1:
+
+1.6.1 Resource Type General
+===========================
+
+======== ==========
+Required Repeatable
+======== ==========
+Yes      No
+======== ==========
+
+**Definition:** For IPD: always “Dataset”
+
+This field clarifies what kind of resource is being provided to HeSANDA, in its most general terms. 
+
+*Metadata fields:*
+
+.. contents:: :local:
+
+.. rubric:: Example DataCite XML
+
+.. code:: xml
+
+ <resourceType resourceTypeGeneral="Dataset">Census Data</identifier>
+
+.. _10.a:
+
+DataCite 10.a resourceTypeGeneral
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**Occurrences:** 1
+
+**Input type:** Text from list
+
+**Example input:** MUST be “Dataset”
