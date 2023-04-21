@@ -23,8 +23,8 @@ Yes      No
 
 .. _1:
 
-1 Identifier
-
+DataCite 1 Identifier
+~~~~~~~~~~~~~~~~~~~~~~
 **Occurrences:** 1
 
 **Input Type** Text
