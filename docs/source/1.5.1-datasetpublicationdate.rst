@@ -1,0 +1,40 @@
+.. _1.5.1:
+
+1.5.1 Dataset Publication Date
+====================
+
+======== ==========
+Required Repeatable
+======== ==========
+Yes      No
+======== ==========
+
+**Definition:** 
+
+The year that the data asset was made available, in yyyy format.
+
+*Metadata fields:*
+
+.. contents:: :local:
+
+.. rubric:: Example DataCite XML
+
+.. code:: xml
+
+  <publicationYear>2022</publicationYear>
+
+.. _5:
+
+DataCite 5 PublicationYear
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**Occurrences:** 1
+
+**Input type:** Number
+
+**Example input:** 1999
+
+**Controlled vocabulary source:** Nil
+
+**Notes:**
+
